@@ -130,3 +130,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflte/releasetools
 
 # cmhw
 BOARD_HARDWARE_CLASS += device/samsung/jflte/cmhw/
+
+# Smart Cover
+BOARD_HAS_EXTENDED_SWITCH := true

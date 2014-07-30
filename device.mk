@@ -193,6 +193,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # call common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
+# Smart Cover
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.switch_code.sw_lid=0x15 \
+    ro.switch_code.sw_lid_invert=true
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
