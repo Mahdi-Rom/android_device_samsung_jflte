@@ -1,7 +1,7 @@
 [
   {
-    "repository": "android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common",
+    "repository": "android_device_samsung_jf-common",
+    "target_path": "device/samsung/jf-common",
     "revision":      "kk-4.4.3"
   },
   {
